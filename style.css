@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+    padding: 1em 5em;
+}
+
+.nav-container{
+    width: 100%;
+    height: 80px;
+}
+
+.nav-container nav a.logo{
+    font-size:33px;
+    color: rgb(18, 18, 162);
+    font-weight: 500;    
+    }
+
+.nav-container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container nav .links-nav a{
+    font-size: 20px;
+    color: rgb(41, 39, 39);
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: 500;
+}
+
+.nav-container nav .Login-nav button{
+    font-size: 16px;
+    padding: 8px 14px;
+    margin-left: 1em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-container nav .Login-nav button.singup{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+}
+
+.description .left{
+    width: 800px;
+}
+
+.description .left h1{
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.description .left p{
+    font-size: 20px;
+    color: rgb(41, 39, 39);;
+}
+.description .left h1 span{
+    color: rgb(18, 18, 162);;
+}
+
+.description .left button{
+    display: flex;
+    width: 200px;
+    padding: 8px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+}
+
+
+.description .left button i{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.description .rigth{
+    display: flex;
+    justify-content: end;
+    width: 800px;
+}
+
+.description .rigth .ima{
+    width: 700px;
+}
+
+.sales,
+.marketplace,
+.sellers{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.sales h1{  
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.sales .services-container,
+.marketplace .nft-container,
+.sellers .sellers-container{
+    display:flex;
+    justify-content: space-between;
+    gap:20px
+}
+
+
+.sales .services-container .services,
+.marketplace .nft-container .nft
+{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgb(118, 116, 116);
+    transition: all 0.3s ease;
+}
+
+.sales .services-container .services:hover,
+.marketplace .nft-container .nft:hover{
+    box-shadow: none;
+}
+
+.sales .services-container .services h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sales .services-container .services h2 i{
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.sales .services-container .services p{
+    font-size: 18px;
+}
+
+.marketplace .view-more{
+    display: flex;
+    flex-direction: column;
+}
+
+.marketplace h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.marketplace .nft-container .nft .items{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #918181;
+}
+
+
+.marketplace .tops-container{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.marketplace .tops-container .tops{
+    background-color: #e1dede;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.marketplace .tops-container .tops:hover,
+.marketplace .view-more button:hover{
+    color: white;
+    background-color:rgb(18, 18, 162); ;
+}
+
+.marketplace .nft-container .nft img{
+    width: 280px;
+    height: 280px;
+    border-radius: 18px;
+}
+
+.marketplace .nft-container .nft h3{
+    margin-bottom: 4px;
+}
+
+.marketplace .nft-container .nft p{
+    display: flex;
+    align-items: center;
+}
+
+.marketplace .nft-container .nft p i{
+    background-color: rgb(18, 18, 162);
+    color: white;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.marketplace .nft-container .nft p span{
+    color: rgb(101, 101, 239);
+    font-size: 15px;
+}
+
+.marketplace .nft-container .nft .line{
+   width: 100%;
+   height: 2px;
+   background-color: #f1f1f1;
+   margin: 5px 0;
+}
+
+.marketplace .nft-container .nft .time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.marketplace .nft-container .nft .time label{
+    background: #f1f1f1;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.marketplace .nft-container .nft .time span{
+    color: rgb(101, 101, 239);
+}
+
+.marketplace .view-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.marketplace .view-more button{
+    border: none;
+    background: #e1dede;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+
+
+.sellers .sellers-container .top-seller{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 18px;
+    width: 500px;
+}
+
+.sellers h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sellers .sellers-container .top-seller img{
+    width: 80px;
+    height: 80x;
+}
+
+.sellers .sellers-container .top-seller .text {
+    margin-left: 10px;
+}
+
+
