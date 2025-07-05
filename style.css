@@ -199,7 +199,7 @@ body{
 .marketplace .tops-container .tops:hover,
 .marketplace .view-more button:hover{
     color: white;
-    background-color:rgb(18, 18, 162); ;
+    background-color:rgb(18, 18, 162);
 }
 
 .marketplace .nft-container .nft img{
@@ -332,11 +332,18 @@ body{
     gap: 10px;
 }
 
-.footer .info-container .info-icons ion-icon{
+.footer .info-container .info-icons a ion-icon{
     width: 25px;
     height: 25px;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+.footer .info-container .info-icons a ion-icon:hover{
+    color:rgb(18, 18, 162);
+}
+
 
 .footer .info-container .copyright{
     display: flex;
@@ -349,4 +356,5 @@ body{
     font-size: 15px;
     color: #535353;
 }
+
 
