@@ -300,14 +300,53 @@ body{
 
 .footer{
     display: flex;
+    justify-content: space-between;
     width: 100%;
-    align-items: center;
     background-color: black;
-    padding: 50px;    
+    padding: 3em 5em;    
+    gap:60px;
 }
 
 .footer h1{
     color: white;
     font-size: 50px;
     font-weight: 800;
+    width: 50%;
 }
+
+.footer .info-container{
+    width: 35%;
+    padding: 10px;
+}
+
+.footer .info-container .info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer .info-container .info-icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footer .info-container .info-icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.footer .info-container .copyright{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+}
+
+.footer .info-container .copyright p{
+    font-size: 15px;
+    color: #535353;
+}
+
