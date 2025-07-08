@@ -322,6 +322,16 @@ body{
 .footer .info-container .info{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.footer .info-container .info label{
+    cursor: pointer;
+    color: rgb(106, 105, 105);
+    transition: all 0.3s ease;
+}
+
+.footer .info-container .info label:hover{
     color: white;
 }
 
@@ -355,6 +365,312 @@ body{
 .footer .info-container .copyright p{
     font-size: 15px;
     color: #535353;
+}
+
+@media screen and (max-width: 1400px){
+    .nav-container,
+    .description,
+    .sales,
+    .marketplace,
+    .nft-container,
+    .sellers,
+    .footer{
+        padding: 0 40px;
+    }
+
+    .description .left h1{
+        font-size: 60px;
+    }
+
+    .description .left p{
+        font-size: 20px;
+    }
+
+    .description .rigth  {
+    max-width: 580px;
+    }
+    .description .rigth img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    }
+
+    .marketplace .nft-container{
+        padding: 0;
+    }
+    .marketplace .nft-container .nft img{
+        width: 220px;
+        height: 220px;
+    }
+    
+    .footer{
+        padding: 60px 50px;
+    }
+
+    .footer h1{
+        font-size: 40px;
+    }
+
+    .footer .info label{
+        font-size: 13px;
+    }
+
+    .footer .info-container .copyright p{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    
+    .description .left h1{
+        font-size: 60px;
+    }
+
+    .description .left p{
+        font-size: 18px;
+    }
+
+    .description .rigth img{
+        width: 520px;
+    }
+
+    .sales h1{
+        font-size: 35px;
+    }
+
+    .sales .services-container .services h2{
+        font-size: 18px;
+    }
+
+    .sales .services-container .services p{
+        font-size: 13px;
+    }
+
+    .marketplace h1{
+        font-size: 35px;
+    }
+
+     .marketplace .nft-container{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+     .marketplace .nft-container .nft{
+        width: 48%;
+    }
+
+    .marketplace .nft-container .nft img{
+        width: 100%;
+        height: auto;
+    }
+
+    .sellers .sellers-container{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sellers .sellers-container .top-seller{
+        width: 48%;
+    }
+    
+    .footer{
+        padding: 80px 70px;
+    }
+
+    .footer h1{
+        font-size: 35px;
+    }
+
+    .footer .info label{
+        font-size: 10px;
+    }
+
+
+
+    .footer .info-container .copyright p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    
+    .nav-container nav a.logo{
+        font-size: 28px;
+    }
+
+    .nav-container nav .Login-nav button{
+        font-size: 12px;
+    }
+
+    .nav-container nav .links-nav a{
+        font-size: 14px;
+    }
+
+    .description{
+        flex-direction: column-reverse;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .description .left{
+        width: 100%;
+    }
+
+    .description .left h1{
+        font-size: 28px;
+    }
+
+    .description .left p{
+        font-size: 15px;
+    }
+    
+    .sales .services-container{
+        flex-wrap: wrap;
+        gap:20px;
+    }
+
+    .sales .services-container .services{
+        width: 48%;
+        height: auto;
+    }
+    
+    .marketplace .nft-container{
+        gap: 20px;
+    }
+    
+    .footer{
+        flex-direction: column;
+        padding: 60px 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer h1{
+        display: flex;
+        width: 100%;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .info-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .info-container .info {
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .nav-container,
+    .description,
+    .sales,
+    .marketplace,
+    .nft-container,
+    .sellers,
+    .footer{
+        padding: 0 20px;
+    }
+
+    .nav-container{
+        margin-top: 10px;
+    }
+    .nav-container nav a.logo{
+        display: none;
+    }
+
+    .nav-container .links-nav a{
+        font-size: 12px;
+    }
+
+    .nav-container .Login-nav button{
+        font-size: 12px;
+    }
+
+    .description .left h1{
+        font-size: 28px;
+    }
+
+    .description .left p{
+        font-size: 12px;
+    }
+
+    .footer{
+        padding: 60px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer h1{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+    .nav-container{
+    gap: 0;
+    }
+
+    .nav-container .links-nav a{ 
+        font-size: 8px;
+        width: 100%;
+    }
+
+    .nav-container .Login-nav button{
+        font-size: 8px;
+    }
+
+    .description .rigth{
+        width: 450px;
+    }
+
+    .description .left button{
+        padding: 6px;
+        width: 160px;
+        font-size: 14px;
+    }
+
+    .sales .services-container .services{
+        width: 100%;
+    }
+
+    .marketplace h1{
+        font-size: 30px;
+    }
+
+    .marketplace .tops-container{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .marketplace .nft-container .nft,
+    .sellers .sellers-container .top-seller{
+        width: 47%;
+    }
+    .marketplace .nft-container .nft .time label{
+        font-size: 12px;
+    }
+
+    .sellers .sellers-container .top-seller h3{
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+
+    .sellers h1{
+        font-size: 30px;
+    }
+
 }
 
 
